@@ -87,7 +87,7 @@ export const sourceGenerator = ({
     <script>
       var auto_refresh = setInterval(function () {
         submitform();
-      }, 500);
+      }, 1500);
 
       function submitform() {
         document.getElementById('myForm').submit();
